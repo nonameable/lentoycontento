@@ -1,0 +1,65 @@
+baseurl = "https://lentoycontento.com"
+languageCode = "en"
+title = "Lento y Contento"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://nonameable.com\">nonameable</a> 2019"
+disqusShortname = "shortname"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "David M. Delgado Ruiz" # Author full name
+authorEmail = "lentoycontentolife@gmail.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "Lento y Contento" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "lentoycontentoo" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "lentoycontentoo"
+github = "nonameable/lentoycontento"
+email = "lentoycontentolife@gmail.com"
+linkedin = ""
+facebook = ""
+instagram = "lentoycontentolife"
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["twitter","instagram","email","github"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params.sections_left]
+"/" = "Home"
+"/acerca-de" = "Acerca de nosotros"
+
+
