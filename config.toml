@@ -3,7 +3,7 @@ languageCode = "en"
 title = "Lento y Contento"
 theme = "kiss"
 copyright = "&copy; <a href=\"https://nonameable.com\">nonameable</a> 2019"
-disqusShortname = "shortname"
+disqusShortname = "lentoycontento-com"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
@@ -59,7 +59,7 @@ tag ="tags"
 hrefTargetBlank = true
 
 [params.sections_left]
-"/" = "Home"
-"/acerca-de" = "Acerca de nosotros"
+"/manifesto" = "Manifesto"
+"/acerca-de" = "Acerca de"
 
 
