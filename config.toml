@@ -50,7 +50,7 @@ platforms = ["twitter","instagram","email","github"]
 
 [params.matomoAnalytics]
 siteID = 1
-rootURL = "//matomo.example.com/"
+rootURL = "raw.githubusercontent.com/matomo-org/matomo/master/js/"
 
 [taxonomies]
 tag ="tags"
