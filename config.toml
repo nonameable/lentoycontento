@@ -1,4 +1,4 @@
-baseurl = "http://www.lentoycontento.com"
+baseurl = "https://www.lentoycontento.com"
 languageCode = "en"
 title = "Lento y Contento"
 theme = "kiss"
